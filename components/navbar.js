@@ -3,15 +3,17 @@ import { Button } from "@mui/material";
 import { Grid } from "@mui/material";
 import { yellow } from "@mui/material/colors";
 import { spacing } from "@mui/system";
+
+
 function Navbar() {
   return (
     <>
       <AppBar position="fixed" color="secondary">
-        <Toolbar >
+        <Toolbar>
           <Grid container md={2} sx={{flexWrap: 'nowrap'}}>
             LOGO
           </Grid>
-          <Grid container md={8} direction="row-reverse">
+          <Grid container md={6} direction="row-reverse">
             <Grid item>
               <Button variant="text" color="inherit">
                 Features
@@ -33,8 +35,8 @@ function Navbar() {
               </Button>
             </Grid>
           </Grid>
-          <Grid container md={2} direction="row-reverse">
-            <Grid item>
+          <Grid container md={4} direction="row-reverse" spacing={2}>
+            <Grid item >
               <Button variant="contained" color="warning" >Log In</Button>
             </Grid>
             <Grid item>
