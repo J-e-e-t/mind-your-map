@@ -4,8 +4,7 @@ import Content from '../../components/dashboard/content'
 
 function index() {
     return (
-        <>
-            <Header></Header>
+        <>  <Header></Header>
             <Content></Content>
         </>
     )
