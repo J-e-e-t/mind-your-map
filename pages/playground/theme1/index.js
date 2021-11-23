@@ -5,7 +5,7 @@ import ReactFlow, {
   MiniMap,
 } from "react-flow-renderer";
 import { Button } from "@mui/material";
-import Header from "../../components/playground/header"
+import Header from "../../../components/playground/header"
 
 const onLoad = (reactFlowInstance) => {
   console.log("flow loaded:", reactFlowInstance);

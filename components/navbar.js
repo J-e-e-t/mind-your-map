@@ -4,10 +4,10 @@ import { Grid } from "@mui/material";
 import { yellow } from "@mui/material/colors";
 import { spacing } from "@mui/system";
 
-
 function Navbar() {
   return (
-    <>
+    <div>
+      
       <AppBar position="fixed" color="secondary">
         <Toolbar>
           <Grid container md={1} sx={{flexWrap: 'nowrap'}}>
@@ -30,11 +30,11 @@ function Navbar() {
                 Help
               </Button>
             </Grid>
-            <Grid item sx={{marginLeft:'1.2em'}}>
+            {/* <Grid item sx={{marginLeft:'1.2em'}}>
               <Button variant="text" color="inherit">
                 Pricing
               </Button>
-            </Grid>
+            </Grid> */}
           </Grid>
           
           <Grid container   md={7} direction="row-reverse" sx={{flexWrap: 'nowrap'}}>
@@ -48,7 +48,7 @@ function Navbar() {
             </Grid>
         </Toolbar>
       </AppBar>
-    </>
+    </div>
   );
 }
 

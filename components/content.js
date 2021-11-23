@@ -7,11 +7,17 @@ import Image from "next/image";
 import demopic from "../public/1.png";
 import { Button } from "@mui/material";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Appbar from "@mui/material/";
+import Toolbar from "@mui/material";
+
 
 
 function Content() {
   return (
     <>
+      <div>
+        
+      </div>
       <div>
         <Grid
           container

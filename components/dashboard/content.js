@@ -21,9 +21,10 @@ import Button from "@mui/material/Button";
 
 import Header from "./header";
 import { paperClasses } from "@mui/material";
+
 function content() {
   return (
-    <>
+    <div>
       <Grid container>
         <Divider />
         <Grid container item md={3} direction="column">
@@ -113,7 +114,7 @@ function content() {
           </Grid>
         </Grid>
       </Grid>
-    </>
+    </div>
   );
 }
 
